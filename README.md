@@ -1,4 +1,4 @@
-# 🪄 AI PDF Clipboard Cleaner (Linux)
+# 🪄 PDF Clipboard Cleaner (Linux)
 
 A lightweight, OS-level background tool that uses local AI to instantly fix the broken formatting, arbitrary line breaks, and missing spaces you get when copying text from PDFs.
 
