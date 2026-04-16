@@ -6,10 +6,12 @@ Completely local. 100% private. Zero API costs. Triggered with a single hotkey.
 
 ## 🤔 The Problem 
 Copying text from a PDF is a nightmare. PDFs don't understand semantic "paragraphs"; they are just visual layouts. When you highlight and copy text, it usually pastes like this:
-> This is a sentence that
-> got broken in half because of
-> the PDF's visual layout engine,
-> and now you have to manually fix it.
+```
+This is a sentence that
+got broken in half because of
+the PDF's visual layout engine,
+and now you have to manually fix it.
+```
 
 ## 💡 The Solution
 This tool runs silently in the background on Linux. When you highlight messy text and press your custom hotkey (e.g., `Ctrl+Alt+C`), a tiny, lightning-fast local AI model (`Qwen2.5:0.5b` via Ollama) intelligently reconstructs the paragraphs and pushes the perfectly formatted text directly into your system clipboard, ready to paste.
